@@ -239,7 +239,7 @@ curl -vk -H "Authorization: Bearer $token" $registryURL
 ```
 
 As a result you should get a list of repositories in your registry. If you have
-pushed only the busybox image from above to your registry you should see an HTTP
+pushed only the busybox image from above to your registry you should see an HTTP 
 body like this:
 
 ```json
