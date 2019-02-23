@@ -1,0 +1,11 @@
+*.env filter=git-crypt diff=git-crypt
+*.ovpn filter=git-crypt diff=git-crypt
+*.log filter=git-crypt diff=git-crypt
+config.yml filter=git-crypt diff=git-crypt
+auth/config/auth_config.yml filter=git-crypt diff=git-crypt
+auth/config/ldap_password.txt filter=git-crypt diff=git-crypt
+certs/auth.crt filter=git-crypt diff=git-crypt
+certs/auth.key filter=git-crypt diff=git-crypt
+certs/registry.crt filter=git-crypt diff=git-crypt
+certs/registry.key filter=git-crypt diff=git-crypt
+
