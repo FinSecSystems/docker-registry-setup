@@ -11,9 +11,6 @@ http:
     addr: :5000
     headers:
         X-Content-Type-Options: [nosniff]
-    tls:
-      certificate: /certs/registry.crt
-      key: /certs/registry.key
 health:
   storagedriver:
     enabled: true
@@ -21,7 +18,7 @@ health:
     threshold: 3
 auth:
   token:
-    realm: "https://0.0.0.0:5001/auth"
+    realm: "http://auth:5001/auth"
     service: "my.docker.registry"
-    issuer: "Acme auth server"
+    issuer: "Liquibrium Auth Server"
     rootcertbundle: /certs/auth.crt
